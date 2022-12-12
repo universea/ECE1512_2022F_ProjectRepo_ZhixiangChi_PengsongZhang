@@ -1,0 +1,2 @@
+2022-12-08 13:45:05 ERROR dropped chunk HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/ncd-wu/test-project/1szovl0c/file_stream (Caused by ProxyError('Cannot connect to proxy.', OSError(0, 'Error')))
+NoneType: None

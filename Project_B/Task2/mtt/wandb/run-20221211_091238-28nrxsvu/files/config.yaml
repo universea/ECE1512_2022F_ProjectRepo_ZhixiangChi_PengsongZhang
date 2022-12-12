@@ -1,0 +1,141 @@
+wandb_version: 1
+
+Iteration:
+  desc: null
+  value: 5000
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.4
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.7.12
+    start_time: 1670721158.27046
+    t:
+      1:
+      - 1
+      - 41
+      - 55
+      - 79
+      3:
+      - 16
+      - 23
+      4: 3.7.12
+      5: 0.13.4
+      8:
+      - 3
+      - 5
+batch_real:
+  desc: null
+  value: 256
+batch_syn:
+  desc: null
+  value: null
+batch_train:
+  desc: null
+  value: 256
+buffer_path:
+  desc: null
+  value: D:/01_code/mtt-distillation-main/checkpoins/
+canvas_samples:
+  desc: null
+  value: 1
+canvas_size:
+  desc: null
+  value: 2
+data_path:
+  desc: null
+  value: N:/Dataset/MNIST_data/
+dataset:
+  desc: null
+  value: CIFAR10
+dc_aug_param:
+  desc: null
+  value: null
+device:
+  desc: null
+  value: cuda
+dsa:
+  desc: null
+  value: true
+dsa_param:
+  desc: null
+  value: <utils.ParamDiffAug object at 0x000002407ACD1D08>
+dsa_strategy:
+  desc: null
+  value: color_crop_cutout_flip_scale_rotate
+epoch_eval_train:
+  desc: null
+  value: 1000
+eval_it:
+  desc: null
+  value: 100
+eval_mode:
+  desc: null
+  value: S
+expert_epochs:
+  desc: null
+  value: 2
+force_save:
+  desc: null
+  value: false
+im_size:
+  desc: null
+  value:
+  - 28
+  - 28
+ipc:
+  desc: null
+  value: 10
+load_all:
+  desc: null
+  value: false
+lr_img:
+  desc: null
+  value: 1000.0
+lr_init:
+  desc: null
+  value: 0.01
+lr_lr:
+  desc: null
+  value: 1.0e-05
+lr_teacher:
+  desc: null
+  value: 0.01
+max_experts:
+  desc: null
+  value: null
+max_files:
+  desc: null
+  value: null
+max_start_epoch:
+  desc: null
+  value: 15
+model:
+  desc: null
+  value: ConvNet
+no_aug:
+  desc: null
+  value: false
+num_eval:
+  desc: null
+  value: 5
+pix_init:
+  desc: null
+  value: real
+subset:
+  desc: null
+  value: imagenette
+syn_steps:
+  desc: null
+  value: 30
+texture:
+  desc: null
+  value: false
+zca:
+  desc: null
+  value: true
+zca_trans:
+  desc: null
+  value: ZCAWhitening()

@@ -1,0 +1,16 @@
+2022-12-11 09:12:38,264 INFO    MainThread:22604 [wandb_setup.py:_flush():68] Configure stats pid to 22604
+2022-12-11 09:12:38,264 INFO    MainThread:22604 [wandb_setup.py:_flush():68] Loading settings from C:\Users\dell\.config\wandb\settings
+2022-12-11 09:12:38,265 INFO    MainThread:22604 [wandb_setup.py:_flush():68] Loading settings from D:\01_code\mtt-distillation-main\wandb\settings
+2022-12-11 09:12:38,265 INFO    MainThread:22604 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-12-11 09:12:38,265 INFO    MainThread:22604 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'distill.py', 'program': 'D:/01_code/mtt-distillation-main/distill.py'}
+2022-12-11 09:12:38,266 INFO    MainThread:22604 [wandb_init.py:_log_setup():476] Logging user logs to D:\01_code\mtt-distillation-main\wandb\run-20221211_091238-28nrxsvu\logs\debug.log
+2022-12-11 09:12:38,266 INFO    MainThread:22604 [wandb_init.py:_log_setup():477] Logging internal logs to D:\01_code\mtt-distillation-main\wandb\run-20221211_091238-28nrxsvu\logs\debug-internal.log
+2022-12-11 09:12:38,266 INFO    MainThread:22604 [wandb_init.py:init():516] calling init triggers
+2022-12-11 09:12:38,266 INFO    MainThread:22604 [wandb_init.py:init():520] wandb.init called with sweep_config: {}
+config: {'dataset': 'CIFAR10', 'subset': 'imagenette', 'model': 'ConvNet', 'ipc': 10, 'eval_mode': 'S', 'num_eval': 5, 'eval_it': 100, 'epoch_eval_train': 1000, 'Iteration': 5000, 'lr_img': 1000.0, 'lr_lr': 1e-05, 'lr_teacher': 0.01, 'lr_init': 0.01, 'batch_real': 256, 'batch_syn': None, 'batch_train': 256, 'pix_init': 'real', 'dsa': True, 'dsa_strategy': 'color_crop_cutout_flip_scale_rotate', 'data_path': 'N:/Dataset/MNIST_data/', 'buffer_path': 'D:/01_code/mtt-distillation-main/checkpoins/', 'expert_epochs': 2, 'syn_steps': 30, 'max_start_epoch': 15, 'zca': True, 'load_all': False, 'no_aug': False, 'texture': False, 'canvas_size': 2, 'canvas_samples': 1, 'max_files': None, 'max_experts': None, 'force_save': False, 'device': 'cuda', 'zca_trans': ZCAWhitening(), 'im_size': (28, 28), 'dc_aug_param': None, 'dsa_param': <utils.ParamDiffAug object at 0x000002407ACD1D08>}
+2022-12-11 09:12:38,267 INFO    MainThread:22604 [wandb_init.py:init():569] starting backend
+2022-12-11 09:12:38,267 INFO    MainThread:22604 [wandb_init.py:init():573] setting up manager
+2022-12-11 09:12:38,269 INFO    MainThread:22604 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2022-12-11 09:12:38,270 INFO    MainThread:22604 [wandb_init.py:init():580] backend started and connected
+2022-12-11 09:12:38,280 INFO    MainThread:22604 [wandb_init.py:init():658] updated telemetry
+2022-12-11 09:12:38,280 INFO    MainThread:22604 [wandb_init.py:init():694] communicating run to backend with 60 second timeout

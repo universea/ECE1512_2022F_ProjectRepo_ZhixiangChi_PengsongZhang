@@ -1,0 +1,6 @@
+2022-12-11 09:12:38,270 INFO    StreamThr :2476 [internal.py:wandb_internal():91] W&B internal server running at pid: 2476, started at: 2022-12-11 09:12:38.270460
+2022-12-11 09:12:38,270 DEBUG   HandlerThread:2476 [handler.py:handle_request():138] handle_request: status
+2022-12-11 09:12:38,270 DEBUG   SenderThread:2476 [sender.py:send_request():317] send_request: status
+2022-12-11 09:12:38,280 INFO    WriterThread:2476 [datastore.py:open_for_write():75] open: D:\01_code\mtt-distillation-main\wandb\run-20221211_091238-28nrxsvu\run-28nrxsvu.wandb
+2022-12-11 09:12:38,280 DEBUG   SenderThread:2476 [sender.py:send():303] send: header
+2022-12-11 09:12:38,280 DEBUG   SenderThread:2476 [sender.py:send():303] send: run
