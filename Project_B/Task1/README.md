@@ -11,4 +11,4 @@ Here is the explanation of what is included in the Supplementary file:
 
 
 
-
+Use ece1512.ipynb to train and test all models.
